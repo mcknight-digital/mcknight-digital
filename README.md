@@ -1,5 +1,9 @@
 # McKnight.Digital
-Welcome to the repo of our website at www.mcknight.digital! If you see an error in the docs or the site, please feel free to submit a pull-request! 
+Welcome to the repo of our website at www.mcknight.digital! If you see an error in the docs or the site, please feel free to submit a pull-request!
+
+We're deployed to Netlify, see if our build is failing below...
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5650ceda-210b-43ca-960f-06eb174ceb34/deploy-status)](https://app.netlify.com/sites/mcknightdigital/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
