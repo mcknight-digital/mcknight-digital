@@ -18,12 +18,13 @@ body{
     -moz-box-shadow: 2px 5px 19px -1px rgba(0, 0, 0, 0.301);
 }
 
-.Navbar > h1{
+.Navbar > a > h1 {
     display: inline-block;
     font-size: 1em;
     font-weight: 800;
     letter-spacing: -1px;
     text-transform: uppercase;
+    color: #000;
 }
 
 .Navbar > .MenuLink  {
@@ -40,6 +41,21 @@ body{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+}
+
+.Menu > .AboutContentSection > a {
+    display: inline-block;
+    margin-bottom: 50%;
+    margin-top: 50%;
+}
+
+.App > .ServerIcon{
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    opacity: .05;
+    z-index: -1;
 }
 
 .StandbySection{
