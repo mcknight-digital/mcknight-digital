@@ -1,8 +1,9 @@
 import '../styles/styles.css';
 
 function ServiceAreas() {
+  let backgroundColor = "#ddf3fa";
   return (
-    <div className="AboutContentSection ServiceAreas">
+    <div style={{backgroundColor}} className="AboutContentSection ServiceAreas">
         <h1>Our Service Areas:</h1>
         
         <p>
