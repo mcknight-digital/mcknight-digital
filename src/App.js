@@ -1,15 +1,30 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './styles/styles.css';
-import Navbar from './components/Navbar.js';
 import Home from './pages/Home.js';
-import Footer from './components/Footer';
+import ComingSoon from './pages/ComingSoon.js';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Home/>
-      <Footer/>
-    </div>
+  <Router>
+    <Switch>
+      <Route exact path="/" >
+        <Home/>
+      </Route>
+      <Route exact path="/offline">
+        <ComingSoon/>
+      </Route>
+    </Switch>
+  </Router>
+    // <div className="App">
+
+    //   <Navbar/>
+    //   <Home/>
+    //   <Footer/>
+    // </div>
   );
 }
 
