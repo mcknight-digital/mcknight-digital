@@ -1,9 +1,18 @@
 import '../styles/styles.css';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer';
+import phone from '../images/phone-white.png';
 
 
 function Disclosures() {
+
+  let phoneStyle = {
+    width: "2.5%",
+    position: "relative",
+    right: "12px",
+    top: "8px"
+  };
+
   return (
     <div className="App">
         <Navbar/>
@@ -58,18 +67,61 @@ function Disclosures() {
 
           <h2 style={{paddingTop: "50px"}}>Section Three, Advertising:</h2>
 
-        <p style={{paddingBottom: "100px"}}>
-            McKnight Digital &mdash; Adam McKnight d/b/a The McKnight Organization, may place Advertisements for Marketing. These Advertisements may be placed on Social Media Platforms, With Ad Brokers, or through other mediums.
+          <p style={{paddingBottom: "100px"}}>
+              McKnight Digital &mdash; Adam McKnight d/b/a The McKnight Organization, may place Advertisements for Marketing. These Advertisements may be placed on Social Media Platforms, With Ad Brokers, or through other mediums.
 
-          <blockquote style={{fontStyle: "italic"}}>
-            Note: Advertising and Marketing budgets are disclosed in our Annual Report. See the Section Above for more details on what we report.
-          </blockquote>
-        </p>
+            <blockquote style={{fontStyle: "italic"}}>
+              Note: Advertising and Marketing budgets are disclosed in our Annual Report. See the Section Above for more details on what we report.
+            </blockquote>
+          </p>
+
+          <h2 style={{paddingTop: "50px"}}>Section Four, Pricing:</h2>
+
+          <p style={{paddingBottom: "100px"}}>
+             The following is our current pricing and fee schedule...
+
+            <blockquote style={{fontStyle: "italic"}}>
+              Note: This may not include all costs. Costs for equipment, may be more, and will be listed on your Service Agreement and Proposal.
+            </blockquote>
+
+            <table>
+              <tr>
+                <td>Item Name</td>
+                <td>Item Price</td>
+                <td>Billed Monthly</td>
+              </tr>
+              <tr>
+                <td>1. Cable Drops</td>
+                <td>$50/drop</td>
+              </tr>
+              <tr>
+                <td>2. Level 3 | Managed Services</td>
+                <td>$500/mo</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>3. Level 2 | Managed Services</td>
+                <td>$150/mo</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>4. Level 1 | Managed Services</td>
+                <td>$85/mo</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>1. Cable Drops</td>
+                <td>$50/drop</td>
+              </tr>
+            </table>
+
+          </p>
 
          
 
           <a href="/about">
-              Read More
+             <img src={phone} style={phoneStyle} alt="phone"/>
+             Call Us
           </a>
       </div>
       <Footer/>

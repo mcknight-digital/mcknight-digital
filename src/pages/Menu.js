@@ -7,8 +7,9 @@ function Menu() {
   return (
     <div className="App Menu">
         <Navbar/>
-        <div className="AboutContentSection">
-          <h1>Menu</h1>
+        
+        <div className="menuLinks">
+        <h1>Menu</h1>
 
           <a href="/">
              Home

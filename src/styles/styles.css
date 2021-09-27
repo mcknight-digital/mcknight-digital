@@ -49,6 +49,29 @@ body{
     margin-top: 50%;
 }
 
+.menuLinks {
+    position: relative;
+    top: 0;
+    left: 20%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.menuLinks > h1 {
+    font-size: 5em;
+    font-weight: 400;
+    color: #22284b;
+}
+
+.menuLinks > a {
+    display: block;
+    text-decoration: none;
+    color: #22284b;
+    font-size: 4em;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
 .App > .ServerIcon{
     width: 35%;
     position: absolute;
@@ -125,6 +148,18 @@ body{
 
 .ServiceAreas{
     margin-top: -10%;
+}
+
+table {
+    background: rgba(86, 101, 133, 0.116);
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+table {
+    margin-right: 30px;
+    border: 2px solid black;
 }
 
 .Footer {
