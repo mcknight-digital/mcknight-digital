@@ -23,10 +23,10 @@ function ServiceAreas() {
         </ul>
 
         <a href="/about">
-            Start a Quote
+            Learn More
         </a>
 
-        <a style={{marginLeft: "20px"}} href="/about">
+        <a style={{marginLeft: "20px"}} href="tel:+15130000000">
            Give us a Call
         </a>
     </div>

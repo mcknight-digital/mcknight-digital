@@ -1,6 +1,7 @@
 import '../styles/styles.css';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 
 
 function About() {
@@ -35,6 +36,7 @@ function About() {
               Read More
           </a>
       </div>
+      <ContactForm/>
       <Footer/>
     </div>
   );

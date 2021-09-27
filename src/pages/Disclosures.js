@@ -2,6 +2,7 @@ import '../styles/styles.css';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer';
 import phone from '../images/phone-white.png';
+import ContactForm from '../components/ContactForm';
 
 
 function Disclosures() {
@@ -110,8 +111,16 @@ function Disclosures() {
                 <td>X</td>
               </tr>
               <tr>
-                <td>1. Cable Drops</td>
-                <td>$50/drop</td>
+                <td>5. Basic VoIP Configuration</td>
+                <td>$25/hr</td>
+              </tr>
+              <tr>
+                <td>6. Network Configuration</td>
+                <td>$55/hr</td>
+              </tr>
+              <tr>
+                <td>7. Wireless Access Point Configuration</td>
+                <td>$55/hr</td>
               </tr>
             </table>
 
@@ -124,6 +133,7 @@ function Disclosures() {
              Call Us
           </a>
       </div>
+      <ContactForm/>
       <Footer/>
     </div>
   );

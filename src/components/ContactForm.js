@@ -1,4 +1,6 @@
 import '../styles/styles.css';
+import phone from "../images/phone-black.png";
+import email from "../images/email-black.png";
 
 function ContactForm() {
   return (
@@ -10,6 +12,27 @@ function ContactForm() {
       <p>
        No matter where you are in your IT Journey, we're excited to help! If you're wanting to learn more about what we do, get a quote for a job, or just ask who has the best Coffee in Ohio &mdash; We're ready to help!
       </p>
+
+      <div className="CallUsCTA">  
+        <h2>Call Us:</h2>
+        <a className="PhoneNumber" href="tel:+15134649347">
+          <img src={phone} alt="phone"></img>
+          <span>(513) 464-9347</span>
+        </a>
+      </div>
+
+      <div className="CallUsCTA">  
+        <h2>E-Mail Us:</h2>
+        <a className="PhoneNumber" href="mailto:sales@mcknight.digital">
+          <img src={email} alt="email"></img>
+          <span>sales@mcknight.digital</span>
+        </a>
+      </div>
+
+      <div className="CallUsCTA">  
+        <h2>Fill out a Form:</h2>
+
+      </div>
 
       <form action="">
         <label for="fname">First Name:</label >

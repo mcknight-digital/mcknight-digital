@@ -251,6 +251,7 @@ table {
     background: #939fb8;
     height: auto;
     width: 40%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5.5px;
@@ -303,73 +304,32 @@ table {
     cursor: grab;
 }
 
-@media screen and (max-width: 768px) {
-    body{
-        padding: 0 auto;
-        margin: 0 auto;
-        background: #ece5db;
-    }
+.CallUsCTA {
+    padding-left: 25%;
 
-    .Navbar {
-        padding: 5% 5%;
-        width: 100%;
-        background: #fff;
-        box-shadow: 2px 5px 19px -1px rgba(0, 0, 0, 0.301);
-    -webkit-box-shadow: 2px 5px 19px -1px rgba(0, 0, 0, 0.301); 
-    -moz-box-shadow: 2px 5px 19px -1px rgba(0, 0, 0, 0.301);
-    }
-
-    .Navbar > h1{
-        display: inline-block;
-        margin-right: 25%;
-        font-size: 1em;
-        text-transform: uppercase;
-        font-weight: 800;
-    }
-
-    .Navbar > .MenuLink  {
-        display: inline-block;
-        padding: 3% 1%;
-        height: 30%;
-        width: 20%;
-        font-weight: 700;
-        color: #fff;
-        border-radius: 4%;
-        border-color: none;
-        background: #2e3666;
-        text-decoration: none;
-        text-align: center;
-        text-transform: uppercase;
-    }
-
-    .AboutContentSection { padding: 5%; }
-
-    .AboutContentSection > h1{
-        font-size: 2.0em;
-        letter-spacing: -2px;
-        font-weight: 700;
-        color: #2e3666;
-    }
-
-    .AboutContentSection > p{
-        line-height: 1.5em;
-        padding-right: 5%;
-        text-align: left;
-        font-weight: 600;
-        color: #22284b;
-        margin-bottom: 10%;
-    }
-
-    .AboutContentSection > a{
-
-        padding: 5% 10%;
-        height: 30%;
-        width: 100%;
-        font-weight: 700;
-        color: #fff;
-        border-radius: 4%;
-        border-color: none;
-        background: #2e3666;
-        text-decoration: none;
-    }
 }
+
+.CallUsCTA > h2{
+    display: inline-block;
+    margin-right: 2.5%;
+}
+
+.PhoneNumber{
+    padding-top: -5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.PhoneNumber > img {
+    position: relative;
+    top: 10px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+/* @media screen and (max-width: 768px) {} */
