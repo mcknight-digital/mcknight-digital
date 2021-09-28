@@ -139,7 +139,10 @@ body{
     text-decoration: none;
 }
 
-.AboutContentSection > ul{ margin-bottom: 7%; }
+.AboutContentSection > ul{ 
+    margin-bottom: 7%;     
+    list-style-type: none;
+}
 
 .AboutContentSection > ul > li{
     font-size: 1.5em;
@@ -329,6 +332,9 @@ table {
     margin-right: 10px;
 }
 
+.Icon{
+    margin-top: 10%;
+}
 
 
 

@@ -15,20 +15,20 @@ function Menu() {
              Home
           </a>
 
-          <a href="/about">
-              About Us
+          <a href="/our-services">
+              Our Services
           </a>
 
           <a href="/about">
               About Us
           </a>
 
-          <a href="/about">
-              About Us
+          <a href="/contact-us">
+              Contact Us
           </a>
 
-          <a href="/disclosures">
-              Disclosures
+          <a href="/blog">
+              Blog
           </a>
       </div>
       <Footer/>
