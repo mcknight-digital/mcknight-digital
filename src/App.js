@@ -9,6 +9,8 @@ import ComingSoon from './pages/ComingSoon.js';
 import About from './pages/About.js';
 import Disclosures from './pages/Disclosures.js';
 import Menu from './pages/Menu.js'
+import ServicesPage from './pages/OurServices.js';
+import ContactPage from './pages/ContactPage.js';
 
 function App() {
   return (
@@ -25,6 +27,12 @@ function App() {
       </Route>
       <Route exact path="/about">
         <About/>
+      </Route>
+      <Route exact path="/our-services">
+        <ServicesPage/>
+      </Route>
+      <Route exact path="/contact-us">
+        <ContactPage/>
       </Route>
 
       {/* PROJECTS & PORTFOLIO */}

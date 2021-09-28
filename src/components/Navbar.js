@@ -3,14 +3,10 @@ import logo from '../images/typemark-blue.png';
 
 function Navbar() {
 
-  let logoStyles = {
-    width: "7%"
-  };
-
   return (
     <div className="Navbar">
       <a href="/">
-        <img src={logo} style={logoStyles} alt="McKnight Digital"/>
+        <img src={logo} alt="McKnight Digital"/>
       </a>
         <a class="MenuLink" href="/menu">
           Menu
